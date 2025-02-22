@@ -8,12 +8,13 @@ import axios from 'axios'
 import moment from 'moment-timezone'
 import { en, es, id, ar, pt, de, it } from './lib/idiomas/total-idiomas.js'
 
-// ES ➜ Agregué primero el número del Bot como prioridad
-// ES ➜ Si desea recibir reportes debe de usar los tres parámetros (Número, nombre y true)
-// EN ➜ Add the Bot number as priority first
+// ES ➜ La bot loca BotLite-MD2027 59896753932 
+// ES ➜ La bot loca BotLite-MD2027 59896753932
+// EN ➜ Add the Bot number as priority first 59896753932
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
 global.owner = [
-['5214774444444', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈
+['59896753932', '59896753932 🌻🐈', true], //𝙂
+La bot loca Bot Lite-MD2027🌻🐈
 ['593968263524', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 🌻🐈', true],
 ['5218715746374'],
 ['5492266613038'], 
