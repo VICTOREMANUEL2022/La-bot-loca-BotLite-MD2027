@@ -102,14 +102,14 @@ msgRetry,
 msgRetryCache,
 version: [2, 3000, 1015901307],
 syncFullHistory: true,
-browser: mcode ? ['Ubuntu', 'Chrome', '110.0.5585.95'] : ['GataBotLite-MD (Sub Bot)', 'Chrome','2.0.0'],
+browser: mcode ? ['Ubuntu', 'Chrome', '110.0.5585.95'] : ['GataBotLite- 'Chrome','2.0.0'],
 defaultQueryTimeoutMs: undefined,
 getMessage: async (key) => {
 if (store) {
 //const msg = store.loadMessage(key.remoteJid, key.id)
 //return msg.message && undefined
 } return {
-conversation: 'GataBotLite-MD',
+conversation: 'La-bot-loca-BotLite-MD2027',
 }}} 
 
 let sock = makeWASocket(connectionOptions)
@@ -232,7 +232,7 @@ ${user?.registered ? `✅ *Verificación:* ${user?.registered ? user.name : 'No'
 ⭐ *Versión del bot:* \`${vs}\`
 💫 *Versión sub bot:* \`${vsJB}\`\n
 > *¡Conviértete en sub-bot ahora!*
-wa.me/${path.basename(pathGataJadiBot)}?text=${usedPrefix + command}+code
+https://wa.me/59896753932 ${path.basename(path La-bot -BotLite-MD2027-jadi)}?text=${usedPrefix + command}+code
 `.trim()
 let ppch = await sock.profilePictureUrl(userJid, 'image').catch(_ => gataMenu)
 await sleep(3000)
@@ -337,7 +337,7 @@ return true
 creloadHandler(false)
 })
 }
-
+La-bot-loca-BotLite-MD2027
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 function sleep(ms) {
 return new Promise(resolve => setTimeout(resolve, ms));}
@@ -345,4 +345,4 @@ return new Promise(resolve => setTimeout(resolve, ms));}
 async function joinChannels(conn) {
 for (const channelId of Object.values(global.ch)) {
 await conn.newsletterFollow(channelId).catch(() => {})
-}}
+}} La-bot-loca-BotLite-MD2027
